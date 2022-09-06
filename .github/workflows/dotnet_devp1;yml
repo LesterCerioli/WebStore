@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./WebStore.sln
+      run: dotnet restore ./SimplCommerce.sln
     - name: Build
-      run: dotnet build ./WebStore.sln
+      run: dotnet build ./SimplCommerce.sln
     - name: Test
-      run: dotnet test ./WebStore.sln
+      run: dotnet test ./SimplCommerce.sln
